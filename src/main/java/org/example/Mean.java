@@ -22,6 +22,6 @@ public class Mean {
         mean = (sum / input.length);
         System.out.println(df.format(mean));
 
-        return Double.valueOf(df.format(mean));
+        return Double.parseDouble(df.format(mean));
     }
 }
