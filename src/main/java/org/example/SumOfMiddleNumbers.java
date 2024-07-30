@@ -8,7 +8,7 @@ public class SumOfMiddleNumbers {
 
         int sum = 0;
 
-        if (input == null || input.length == 0) {
+        if (input == null || input.length < 3) {
             return 0;
         }
 
